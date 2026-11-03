@@ -1,7 +1,7 @@
 public class leet_35 {
     public static void main(String[] args) {
         int[] a={1,2,3,4,5};
-        int t=90;
+        int t=7;
         System.out.println(searchInsert(a, t));
     }
     static int searchInsert(int[] nums, int target) {
