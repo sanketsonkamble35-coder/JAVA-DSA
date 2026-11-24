@@ -1,9 +1,10 @@
-public class leet_217 {
-}
-
 import java.util.Arrays;
-class Solution {
-    public boolean containsDuplicate(int[] nums) {
+public class leet_217 {
+public static void main(String[] args) {
+    int [] array={1,3,34,45,56};
+    System.out.println(containsDuplicate(array));}
+    
+    static boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
         for (int i=0;i<nums.length-1;i++){
             if(nums[i]==nums[i+1]){return true;}
@@ -11,7 +12,6 @@ class Solution {
         return false;
     }
 }
-
 // 217. Contains Duplicate
 // Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
